@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0fe7b15-a347-477e-994c-31c834f6f31d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/test/java/co/com/screenplay/project/stepdefinition/PurchaseMarketPlaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/java/co/com/screenplay/project/testrunners/TestRunnerPurchaseWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/resources/features/purchase.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/hook/OpenWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/FunctionElementsTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/LoginWithUserCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/HomeUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/utils/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/java/co/com/screenplay/project/stepdefinition/hook/Hook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/co/com/screenplay/project/stepdefinition/PurchaseMarketPlaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/co/com/screenplay/project/stepdefinition/PurchaseMarketPlaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +70,28 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="TestRunnerPurchaseWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="screenplayuamlab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.screenplay.project.testrunners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.screenplay.project.testrunners" />
+      <option name="MAIN_CLASS_NAME" value="co.com.screenplay.project.testrunners.TestRunnerPurchaseWeb" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunnerPurchaseWeb" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,5 +113,32 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;Cucumber+&quot;!=null" />
+          <url>file://$PROJECT_DIR$/src/main/test/java/co/com/screenplay/project/stepdefinition/hook/Hook.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/co/com/screenplay/project/hook/OpenWeb.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/co/com/screenplay/project/hook/OpenWeb.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="tzatziki.gherkin.step">
+          <url>file://$PROJECT_DIR$/src/main/test/resources/features/purchase.feature</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

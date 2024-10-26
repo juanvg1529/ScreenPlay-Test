@@ -14,12 +14,6 @@ public class PurchaseMarketPlaceTest {
         OnStage.setTheStage(new OnlineCast());
     }
 
-
-    @Given("the {string} accesses the URL")
-    public void the_accesses_the_url(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
     @When("the Miriana logs in to the webpage with the following credentials:")
     public void the_miriana_logs_in_to_the_webpage_with_the_following_credentials(io.cucumber.datatable.DataTable dataTable) {
         // Write code here that turns the phrase above into concrete actions
