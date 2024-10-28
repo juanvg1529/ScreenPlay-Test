@@ -9,7 +9,8 @@ import net.serenitybdd.screenplay.waits.WaitUntil;
 import static co.com.screenplay.project.ui.HomeUI.LOGIN_BUTTON;
 import static co.com.screenplay.project.ui.HomeUI.LOGO_HOMEPAGE;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isEnabled;
-import  static co.com.screenplay.project.utils.Constants.TIME_SHORT;
+import static  co.com.screenplay.project.utils.Constants.TIME_SHORT;
+
 
 public class FunctionElementsTask implements Task{
 

@@ -2,6 +2,7 @@ package co.com.screenplay.project.stepdefinition.hook;
 
 import co.com.screenplay.project.hook.OpenWeb;
 
+import co.com.screenplay.project.tasks.ValidateHome;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import net.serenitybdd.screenplay.GivenWhenThen;
@@ -23,14 +24,13 @@ public class Hook {
         OnStage.setTheStage(new OnlineCast());
     }
 
-    @Given("the {string} accesses the URL")
+    @Given("the {} accesses the URL")
     public void the_accesses_the_url(String actor) {
         OnStage.theActorCalled(actor).attemptsTo(
                 OpenWeb.browseURL());
         waiting(TIME_SHORT);
-        theActorInTheSpotlight().should(GivenWhenThen.seeThat(
-                TheWebPage.title(),
-                Matchers.containsString(TITLE)
-        ));
+        OnStage.theActorCalled(actor).attemptsTo(
+                ValidateHome.validateHomePage()
+        );
     }
 }
