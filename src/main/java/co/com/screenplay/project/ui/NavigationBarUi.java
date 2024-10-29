@@ -13,6 +13,7 @@ public class NavigationBarUi extends PageObject {
 
     public static final Target SEARCH_FIELD = Target.the("search field").located(By.xpath("//input[@class='form-control search-top']"));
     public static final Target SEARCH_BUTTON = Target.the("search button").located(By.xpath("//button[@class='btn btn-danger']"));
+    public static final Target CART_BUTTON = Target.the("cart button").located(By.xpath("//a[@href='cart.php']"));
 
 
 }

@@ -12,8 +12,7 @@ import net.serenitybdd.screenplay.questions.page.TheWebPage;
 import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
 
-import static co.com.screenplay.project.utils.Constants.TIME_SHORT;
-import static co.com.screenplay.project.utils.Constants.TITLE;
+import static co.com.screenplay.project.utils.Constants.*;
 import static co.com.screenplay.project.utils.Time.waiting;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
@@ -24,11 +23,12 @@ public class Hook {
         OnStage.setTheStage(new OnlineCast());
     }
 
-    @Given("the {} accesses the URL")
+    @Given("the {string} accesses the URL")
     public void the_accesses_the_url(String actor) {
         OnStage.theActorCalled(actor).attemptsTo(
                 OpenWeb.browseURL());
-        waiting(TIME_SHORT);
+        waiting(TIME_LOAD);
+        System.out.println("Page Open ");
         OnStage.theActorCalled(actor).attemptsTo(
                 ValidateHome.validateHomePage()
         );

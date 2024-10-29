@@ -14,6 +14,8 @@ import org.openqa.selenium.By;
 
 
 import static co.com.screenplay.project.ui.Login.*;
+import static co.com.screenplay.project.ui.HomeUI.*;
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClickable;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isEnabled;
 import static co.com.screenplay.project.utils.Constants.TIME_SHORT;
 
@@ -31,6 +33,7 @@ public class LoginWithUserCredentials implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
+                Click.on(LOGIN_BUTTON),
                 WaitUntil.the(NAME_FIElD, isEnabled()).
                         forNoMoreThan(TIME_SHORT).seconds(),
                 Enter.theValue(username).into(NAME_FIElD),

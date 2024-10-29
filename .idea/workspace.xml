@@ -5,24 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0fe7b15-a347-477e-994c-31c834f6f31d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/questions/ValidateLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/AddToCartProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/SearchProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/ValidateHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/CharacteristicsProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/DashboardUi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/NavigationBarUi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/ProductUi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/questions/IsOrderPresent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/questions/IsProductPurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/ChooseProductCharacteristics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/CompletePayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/GoToCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/ProceedToCheckout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/CheckoutUi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/OrdersUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/PaymentUi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/PurchaseCompleteUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/utils/Methods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/hook/OpenWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/hook/OpenWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/FunctionElementsTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/FunctionElementsTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/FunctionElementsTask.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/LoginWithUserCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/LoginWithUserCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/ValidateHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/ValidateHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/CharacteristicsProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/CharacteristicsProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/HomeUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/HomeUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/NavigationBarUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/NavigationBarUi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/utils/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/java/co/com/screenplay/project/stepdefinition/PurchaseMarketPlaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/co/com/screenplay/project/stepdefinition/PurchaseMarketPlaceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/java/co/com/screenplay/project/stepdefinition/hook/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/co/com/screenplay/project/stepdefinition/hook/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/co/com/screenplay/project/testrunners/TestRunnerPurchaseWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/co/com/screenplay/project/testrunners/TestRunnerPurchaseWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/resources/features/purchase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/resources/features/purchase.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +50,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-21/lib/src.zip!/java.base/jdk/internal/reflect/DirectMethodHandleAccessor.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/7.18.1/cucumber-java-7.18.1.jar!/io/cucumber/java/Invoker.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/4.2.0/serenity-core-4.2.0.jar!/net/thucydides/core/steps/StepInterceptor.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay/4.2.0/serenity-screenplay-4.2.0.jar!/net/serenitybdd/screenplay/actors/OnStage.class" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/test/resources/features/purchase.feature" root0="FORCE_HIGHLIGHTING" />
@@ -149,33 +160,13 @@
         <line-breakpoint enabled="true" type="java-line">
           <condition expression="&quot;Cucumber+&quot;!=null" />
           <url>file://$PROJECT_DIR$/src/main/test/java/co/com/screenplay/project/stepdefinition/PurchaseMarketPlaceTest.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/AddToCartProduct.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="tzatziki.gherkin.step.example">
-          <url>file://$PROJECT_DIR$/src/main/test/resources/features/purchase.feature</url>
-          <line>33</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="tzatziki.gherkin.step">
-          <url>file://$PROJECT_DIR$/src/main/test/resources/features/purchase.feature</url>
-          <line>15</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="tzatziki.gherkin.step">
-          <url>file://$PROJECT_DIR$/src/main/test/resources/features/purchase.feature</url>
-          <line>21</line>
-          <option name="timeStamp" value="34" />
+          <line>138</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="tzatziki.gherkin.step">
           <url>file://$PROJECT_DIR$/src/main/test/resources/features/purchase.feature</url>
           <line>26</line>
-          <option name="timeStamp" value="35" />
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

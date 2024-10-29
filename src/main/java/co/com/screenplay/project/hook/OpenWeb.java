@@ -14,12 +14,22 @@ public class OpenWeb implements Task {
 
     //variables
 
+
     private EnvironmentVariables environmentVariables;
+
+    public OpenWeb() {
+
+    }
 
 
     @Override
     public <T extends Actor> void performAs(T actor) {
         String pathWebURL = EnvironmentSpecificConfiguration.from(environmentVariables).getProperty(WEB_URL);
+
+        if (pathWebURL == null || pathWebURL.isEmpty()) {
+            throw new IllegalArgumentException("La URL del entorno no está configurada o está vacía.");
+        }
+      pathWebURL = EnvironmentSpecificConfiguration.from(environmentVariables).getProperty(WEB_URL);
         actor.attemptsTo(Open.url(pathWebURL));
     }
 

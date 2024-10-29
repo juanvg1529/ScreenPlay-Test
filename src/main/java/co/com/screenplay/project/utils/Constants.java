@@ -5,6 +5,7 @@ public class Constants {
 
     public static final String ACTOR ="Juan";
     public static final String WEB_URL ="environments.default.webdriver.base.url";
-    public static final int TIME_SHORT =10;
+    public static final int TIME_SHORT =30;
+    public static final int TIME_LOAD= 10;
     public static final String TITLE ="Ecommerce PHP";
 }

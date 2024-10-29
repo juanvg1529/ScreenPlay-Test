@@ -1,8 +1,10 @@
 package co.com.screenplay.project.testrunners;
 
 import io.cucumber.junit.CucumberOptions;
+import net.serenitybdd.annotations.Managed;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
@@ -13,4 +15,6 @@ import org.junit.runner.RunWith;
 
 )
 public class TestRunnerPurchaseWeb {
+    @Managed
+    WebDriver driver;
 }
